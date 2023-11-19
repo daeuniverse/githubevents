@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/cbrgm/githubevents/examples/simple-http-server-packages/plugins"
-	"github.com/cbrgm/githubevents/githubevents"
+	"github.com/daeuniverse/githubevents/examples/simple-http-server-packages/plugins"
+	"github.com/daeuniverse/githubevents/githubevents"
 	"net/http"
 )
 

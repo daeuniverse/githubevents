@@ -3,7 +3,7 @@ package plugins
 import (
 	"fmt"
 
-	"github.com/cbrgm/githubevents/githubevents"
+	"github.com/daeuniverse/githubevents/githubevents"
 	"github.com/google/go-github/v55/github"
 )
 

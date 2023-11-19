@@ -19,7 +19,7 @@ func main() {
 	}
 
 	// when -docs is set, create a list of all supported markdown events as yaml on stdout
-	// todo(cbrgm): clean this up a little bit
+	// todo(daeuniverse): clean this up a little bit
 	if *docs {
 		err := ExecuteMarkdownTemplate("", webhookMarkdownTemplate, params)
 		if err != nil {

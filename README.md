@@ -4,12 +4,12 @@
 
 **[GitHub](https://github.com/) webhook events toolset for [Go](https://go.dev/)**
 
-[![release](https://img.shields.io/github/release-pre/cbrgm/githubevents.svg)](https://github.com/cbrgm/githubevents/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cbrgm/githubevents)](https://goreportcard.com/report/github.com/cbrgm/githubevents)
-[![license](https://img.shields.io/badge/Coverage-88.3%25-green.svg)](https://pkg.go.dev/github.com/cbrgm/githubevents/githubevents)
-[![license](https://img.shields.io/badge/Docs-pkg.go.dev-blue.svg)](https://pkg.go.dev/github.com/cbrgm/githubevents/githubevents)
-[![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/cbrgm/githubevents/blob/master/LICENSE)
-![GitHub stars](https://img.shields.io/github/stars/cbrgm/githubevents.svg?label=github%20stars)
+[![release](https://img.shields.io/github/release-pre/daeuniverse/githubevents.svg)](https://github.com/daeuniverse/githubevents/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/daeuniverse/githubevents)](https://goreportcard.com/report/github.com/daeuniverse/githubevents)
+[![license](https://img.shields.io/badge/Coverage-88.3%25-green.svg)](https://pkg.go.dev/github.com/daeuniverse/githubevents/githubevents)
+[![license](https://img.shields.io/badge/Docs-pkg.go.dev-blue.svg)](https://pkg.go.dev/github.com/daeuniverse/githubevents/githubevents)
+[![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/daeuniverse/githubevents/blob/master/LICENSE)
+![GitHub stars](https://img.shields.io/github/stars/daeuniverse/githubevents.svg?label=github%20stars)
 
 `githubevents` is a webhook events toolset for the Go programming language inspired by ***[octokit/webhooks.js](https://github.com/octokit/webhooks.js)***.
 
@@ -33,7 +33,7 @@ This library makes use of [google/go-github](https://github.com/google/go-github
 
 ```go
 import (
-    "github.com/cbrgm/githubevents/githubevents"
+    "github.com/daeuniverse/githubevents/githubevents"
 )
 ```
 
@@ -44,7 +44,7 @@ package main
 
 import (
   "fmt"
-  "github.com/cbrgm/githubevents/githubevents"
+  "github.com/daeuniverse/githubevents/githubevents"
   "github.com/google/go-github/v55/github"
   "net/http"
 )
@@ -76,11 +76,11 @@ func main() {
 }
 ```
 
-For more usage examples, please have a look at the [examples](https://github.com/cbrgm/githubevents/tree/main/examples) directory.
+For more usage examples, please have a look at the [examples](https://github.com/daeuniverse/githubevents/tree/main/examples) directory.
 
 ## API
 
-Please refer to [pkg.go.dev](https://pkg.go.dev/github.com/cbrgm/githubevents/githubevents) for a full list of supported callback functions.
+Please refer to [pkg.go.dev](https://pkg.go.dev/github.com/daeuniverse/githubevents/githubevents) for a full list of supported callback functions.
 
 ### Constructor
 
@@ -102,7 +102,7 @@ Functions to register callbacks follow a specific naming scheme. `On...` functio
 
 `On...Any`/`SetOn...Any` functions register callbacks that are executed on each action of an event (if the event has actions).
 
-A full list of supported events for this Go module can be found under the section "[Supported Webhooks Events](#supported-webhooks-events)". A full documentation including all functions to register callbacks can be found on [pkg.go.dev](https://pkg.go.dev/github.com/cbrgm/githubevents/githubevents).
+A full list of supported events for this Go module can be found under the section "[Supported Webhooks Events](#supported-webhooks-events)". A full documentation including all functions to register callbacks can be found on [pkg.go.dev](https://pkg.go.dev/github.com/daeuniverse/githubevents/githubevents).
 
 #### Callback Execution Order
 
@@ -274,7 +274,7 @@ Alternatively, you can choose to build and manage a webhook through the Webhooks
 
 ## Compatibility
 
-| google/go-github | cbrgm/githubevents |
+| google/go-github | daeuniverse/githubevents |
 |------------------|--------------------|
 | `v55.x`            | `v1.8.x`   |
 | `v49.x`            | <= `v1.7.x`   |
@@ -288,5 +288,5 @@ Alternatively, you can choose to build and manage a webhook through the Webhooks
 ## Contributing & License
 
 Feel free to submit changes! See
-the [Contributing Guide](https://github.com/cbrgm/contributing/blob/master/CONTRIBUTING.md). This project is open-source
-and is developed under the terms of the [MIT License](https://github.com/cbrgm/githubevents/blob/master/LICENSE).
+the [Contributing Guide](https://github.com/daeuniverse/contributing/blob/master/CONTRIBUTING.md). This project is open-source
+and is developed under the terms of the [MIT License](https://github.com/daeuniverse/githubevents/blob/master/LICENSE).

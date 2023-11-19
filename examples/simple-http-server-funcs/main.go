@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/cbrgm/githubevents/githubevents"
+	"github.com/daeuniverse/githubevents/githubevents"
 	"net/http"
 )
 
