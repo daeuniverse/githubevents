@@ -1,4 +1,4 @@
-module github.com/cbrgm/githubevents
+module github.com/daeuniverse/githubevents
 
 go 1.19
 
